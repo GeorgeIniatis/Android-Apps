@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/innerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"/>
+
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtFirstName"
+            android:layout_marginStart="15dp"
+
+            android:text="Last Name"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtLastName"
+            android:layout_marginStart="15dp"
+            android:text="Email"/>
+
+
+    </RelativeLayout>
+
+   <TextView
+       android:id="@+id/txtHelloWorld"
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/innerRelativeLayout"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="15dp"
+
+       android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/buttonSayHello"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHelloWorld"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+
+        android:text="Say Hello" />
+
+</RelativeLayout>
