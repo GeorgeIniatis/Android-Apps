@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Different Xml Files</string>
-    <string name="hello"> Hello Jorge! </string>
+    <string name="hello"> Halo Jorge! </string>
     <string name="settingsMenu" > Settings</string>
     <string name="alarmMenu" > Alarm</string>
 </resources>
