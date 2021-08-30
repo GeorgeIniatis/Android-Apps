@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contactCardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtContactName"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+
+            android:text="Contact Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtContactEmail"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtContactName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+
+            android:text="Contact Email"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageContact"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/txtContactEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
