@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Advanced_Register_Form</string>
+    <string-array name="countries">
+        <item>Cyprus</item>
+        <item>Greece</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Israel</item>
+    </string-array>
+</resources>
